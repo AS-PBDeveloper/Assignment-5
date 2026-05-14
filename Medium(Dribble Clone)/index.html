@@ -51,10 +51,7 @@
         </p>
 
         <div class="hero-search-box">
-          <input
-            type="text"
-            placeholder="What type of design are you interested in?"
-          />
+          <input type="text" placeholder="What are you looking for?" />
           <button><i class="ri-search-line"></i></button>
         </div>
         <div class="popular-tags">
@@ -68,27 +65,47 @@
         </div>
       </div>
 
-      <div id="page2">
-        <div id="filters">
-          <button class="popular-btn">
-            <span>Popular</span>
-            <i class="ri-arrow-down-s-line"></i>
-          </button>
-          <div class="filter-links">
-            <a href="#" class="active">Discover</a>
-            <a href="#">Animation</a>
-            <a href="#">Branding</a>
-            <a href="#">Illustration</a>
-            <a href="#">Mobile</a>
-            <a href="#">Print</a>
-            <a href="#">Product Design</a>
-            <a href="#">Web Design</a>
-          </div>
+      <div id="filters">
+        <button class="popular-btn">
+          <span>Popular</span>
+          <i class="ri-arrow-down-s-line"></i>
+        </button>
+        <div class="filter-links">
+          <a href="#" class="active">Discover</a>
+          <a href="#">Animation</a>
+          <a href="#">Branding</a>
+          <a href="#">Illustration</a>
+          <a href="#">Mobile</a>
+          <a href="#">Print</a>
+          <a href="#">Product Design</a>
+          <a href="#">Web Design</a>
+        </div>
 
-          <button class="filters-btn">
-            <i class="ri-equalizer-line"></i>
-            <span>Filters</span>
-          </button>
+        <button class="filters-btn">
+          <i class="ri-equalizer-line"></i>
+          <span>Filters</span>
+        </button>
+      </div>
+
+      <div id="cards-grid">
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/1.webp" alt="" />
+            <div class="overlay">
+              <h4>Disney Tourist Blog</h4>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="author" />
+              <span>Adam Grason</span>
+              <span class="pro-tag">PRO</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 63</span>
+              <span><i class="ri-eye-line"></i> 5.1k</span>
+            </div>
+          </div>
         </div>
 
         <div class="card">
@@ -109,138 +126,207 @@
           </div>
         </div>
 
-        <!-- <div class="scroll">
-          <div class="card">
-            <img src="./img/user1.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li class="tagLi">Graphic Design</li>
-                  <li class="tagLi">Illustration</li>
-                </ul>
-              </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/2.webp" alt="" />
+            <div class="overlay">
+              <h4>Work OS</h4>
             </div>
           </div>
-          <div class="card">
-            <img src="./img/user2.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li class="tagLi">Graphic Design</li>
-                  <li class="tagLi">Illustration</li>
-                </ul>
-              </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="" />
+              <span>Geex Arts</span>
+              <span class="pro-tag">PRO</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 88</span>
+              <span><i class="ri-eye-line"></i> 8.8k</span>
             </div>
           </div>
-          <div class="card">
-            <img src="./img/user3.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li class="tagLi">Graphic Design</li>
-                  <li class="tagLi">Illustration</li>
-                </ul>
-              </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <video autoplay loop muted src="./assets/2.mp4"></video>
+            <div class="overlay">
+              <h4>ECLOW*</h4>
             </div>
           </div>
-          <div class="card">
-            <img src="./img/user4.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li class="tagLi">Graphic Design</li>
-                  <li class="tagLi">Illustration</li>
-                </ul>
-              </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="author" />
+              <span>ECLOW*</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 80</span>
+              <span><i class="ri-eye-line"></i> 7.7k</span>
             </div>
           </div>
-          <div class="card">
-            <img src="./img/user5.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li class="tagLi">Graphic Design</li>
-                  <li class="tagLi">Illustration</li>
-                </ul>
-              </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/3.webp" alt="" />
+            <div class="overlay">
+              <h4>Qerra - Logo Design Wordmark</h4>
             </div>
           </div>
-          <div class="card">
-            <img src="./img/user1.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li class="tagLi">Graphic Design</li>
-                  <li class="tagLi">Illustration</li>
-                </ul>
-              </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="author" />
+              <span>Wegrow</span>
+              <span class="pro-tag">PRO</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 89</span>
+              <span><i class="ri-eye-line"></i> 9.5k</span>
             </div>
           </div>
-          <div class="card">
-            <img src="./img/user2.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li class="tagLi">Graphic Design</li>
-                  <li class="tagLi">Illustration</li>
-                </ul>
-              </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/3.gif" alt="" />
+            <div class="overlay">
+              <h4>Social Marketplace Web and Mobile App Powered by Web3</h4>
             </div>
           </div>
-          <div class="card">
-            <img src="./img/user3.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li class="tagLi">Graphic Design</li>
-                  <li class="tagLi">Illustration</li>
-                </ul>
-              </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="" />
+              <span>Roobinium</span>
+              <span class="team-tag">TEAM</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 681</span>
+              <span><i class="ri-eye-line"></i> 3.1k</span>
             </div>
           </div>
-          <div class="card">
-            <img src="./img/user4.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li class="tagLi">Graphic Design</li>
-                  <li class="tagLi">Illustration</li>
-                </ul>
-              </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/5.gif" alt="" />
+            <div class="overlay">
+              <h4>Konto</h4>
             </div>
           </div>
-          <div class="card">
-            <img src="./img/user5.webp" alt="" />
-            <div class="userinfo">
-              <div class="userD">
-                <h4>Mercedes Bazan</h4>
-                <h4>Illustrator</h4>
-                <ul class="tags">
-                  <li>Graphic Design</li>
-                  <li>Illustration</li>
-                </ul>
-              </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="" />
+              <span>Daniel Bodea</span>
+              <span class="pro-tag">PRO</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 88</span>
+              <span><i class="ri-eye-line"></i> 8.8k</span>
             </div>
           </div>
-        </div> -->
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <video autoplay loop muted src="./assets/5.mp4"></video>
+            <div class="overlay">
+              <h4>Slow fashion for fast life</h4>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="author" />
+              <span>Now Trending</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 80</span>
+              <span><i class="ri-eye-line"></i> 7.7k</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/6.webp" alt="" />
+            <div class="overlay">
+              <h4>UI-UX for an Education Product ✦ Lerno</h4>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="author" />
+              <span>Halo UI/UX</span>
+              <span class="pro-tag">PRO</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 89</span>
+              <span><i class="ri-eye-line"></i> 9.5k</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/6.gif" alt="" />
+            <div class="overlay">
+              <h4>BullXT - Web3 Wallet Tools Component</h4>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="" />
+              <span>Dipa UI/UX</span>
+              <span class="pro-tag">PRO</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 88</span>
+              <span><i class="ri-eye-line"></i> 8.8k</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="./assets/7.webp" alt="" />
+            <div class="overlay">
+              <h4>9CAP logo and website hero</h4>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="" />
+              <span>Wegrow</span>
+              <span class="pro-tag">PRO</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 88</span>
+              <span><i class="ri-eye-line"></i> 8.8k</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img
+              src="https://cdn.dribbble.com/userupload/45212534/file/a7dbc0a3911c462a47cecfe714866fb9.jpg?resize=1024x786&vertical=center"
+              alt=""
+            />
+            <div class="overlay">
+              <h4>King's Peace rum</h4>
+            </div>
+          </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="./assets/desImg.jpeg" alt="" />
+              <span>Dalibass Design Studio</span>
+              <span class="pro-tag">PRO</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 88</span>
+              <span><i class="ri-eye-line"></i> 8.8k</span>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   </body>
