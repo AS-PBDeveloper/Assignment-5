@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dribbble Clone Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <nav>
+        <div class="nav-left">
+          <img class="logo" src="./assets/Dribbble-Logo.png" alt="" />
+          <ul>
+            <li>
+              <p>
+                Explore <span><i class="ri-arrow-down-s-line"></i></span>
+              </p>
+            </li>
+            <li>
+              <p>
+                Hire a Designer<span><i class="ri-arrow-down-s-line"></i></span>
+              </p>
+            </li>
+            <li>
+              <p>Find Jobs</p>
+            </li>
+            <li>
+              <p>Blog</p>
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="signup">Sign up</button>
+          <button class="login">Log in</button>
+        </div>
+      </nav>
+
+      <div id="page1">
+        <h1>
+          Discover the world’s <br />
+          top designers
+        </h1>
+        <p>
+          Explore work from the most talented and accomplished designers <br />
+          ready to take on your next project
+        </p>
+
+        <div class="hero-search-box">
+          <input
+            type="text"
+            placeholder="What type of design are you interested in?"
+          />
+          <button><i class="ri-search-line"></i></button>
+        </div>
+        <div class="popular-tags">
+          <span>Trending searches</span>
+          <a href="#">landing page</a>
+          <a href="#">e-commerce</a>
+          <a href="#">mobile app</a>
+          <a href="#">logo design</a>
+          <a href="#">dashboard</a>
+          <a href="#">icons</a>
+        </div>
+      </div>
+
+      <div id="page2">
+        <div id="filters">
+          <button class="popular-btn">
+            <span>Popular</span>
+            <i class="ri-arrow-down-s-line"></i>
+          </button>
+          <div class="filter-links">
+            <a href="#" class="active">Discover</a>
+            <a href="#">Animation</a>
+            <a href="#">Branding</a>
+            <a href="#">Illustration</a>
+            <a href="#">Mobile</a>
+            <a href="#">Print</a>
+            <a href="#">Product Design</a>
+            <a href="#">Web Design</a>
+          </div>
+
+          <button class="filters-btn">
+            <i class="ri-equalizer-line"></i>
+            <span>Filters</span>
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <video autoplay loop muted src="1.mp4"></video>
+            <div class="overlay"><h4>Keitoto</h4></div>
+          </div>
+          <div class="card-info">
+            <div class="author">
+              <img src="desImg.jpeg" alt="" />
+              <span>Dribbble</span>
+              <span class="team-tag">TEAM</span>
+            </div>
+            <div class="stats-visible">
+              <span><i class="ri-heart-3-line"></i> 81</span>
+              <span><i class="ri-eye-line"></i> 7.1k</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="scroll">
+          <div class="card">
+            <img src="./img/user1.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li class="tagLi">Graphic Design</li>
+                  <li class="tagLi">Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/user2.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li class="tagLi">Graphic Design</li>
+                  <li class="tagLi">Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/user3.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li class="tagLi">Graphic Design</li>
+                  <li class="tagLi">Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/user4.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li class="tagLi">Graphic Design</li>
+                  <li class="tagLi">Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/user5.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li class="tagLi">Graphic Design</li>
+                  <li class="tagLi">Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/user1.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li class="tagLi">Graphic Design</li>
+                  <li class="tagLi">Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/user2.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li class="tagLi">Graphic Design</li>
+                  <li class="tagLi">Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/user3.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li class="tagLi">Graphic Design</li>
+                  <li class="tagLi">Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/user4.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li class="tagLi">Graphic Design</li>
+                  <li class="tagLi">Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/user5.webp" alt="" />
+            <div class="userinfo">
+              <div class="userD">
+                <h4>Mercedes Bazan</h4>
+                <h4>Illustrator</h4>
+                <ul class="tags">
+                  <li>Graphic Design</li>
+                  <li>Illustration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>
