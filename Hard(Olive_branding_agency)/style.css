@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-oliv-dark antialiased bg-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-oliv-dark text-white px-8 py-4 rounded-full font-medium transition-all duration-300 hover:bg-opacity-90 hover:scale-105 active:scale-95;
+  }
+  
+  .nav-link {
+    @apply text-sm font-medium hover:text-gray-500 transition-colors duration-200;
+  }
+
+  .card-hover {
+    @apply transition-all duration-500 hover:-translate-y-2 hover:shadow-xl;
+  }
+
+  .footer-link {
+    @apply text-sm font-medium text-oliv-dark hover:text-gray-400 transition-colors duration-200;
+  }
+
+  /* Scroll Reveal Animation */
+  .reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .reveal-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
