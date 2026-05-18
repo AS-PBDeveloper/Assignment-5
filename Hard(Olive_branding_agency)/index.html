@@ -16,7 +16,7 @@
       class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100"
     >
       <nav
-        class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between"
+        class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between"
       >
         <div class="flex items-center gap-4">
           <a
@@ -30,19 +30,51 @@
             >We are hiring!</span
           >
         </div>
+        <div class="flex items-center gap-10">
+          <div class="hidden lg:flex items-center gap-8">
+            <a href="#work" class="nav-link text-base">Work</a>
+            <a href="#services" class="nav-link text-base">Services</a>
+            <a href="#about" class="nav-link text-base">About</a>
+            <a href="#blog" class="nav-link text-base">Blog</a>
+            <div class="relative group">
+              <button class="nav-link flex items-center gap-1 text-base">
+                Pages
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+            </div>
+          </div>
 
-        <div class="hidden lg:flex items-center gap-8">
-          <a href="#work" class="nav-link">Work</a>
-          <a href="#services" class="nav-link">Services</a>
-          <a href="#about" class="nav-link">About</a>
-          <a href="#blog" class="nav-link">Blog</a>
-          <div class="relative group">
-            <button class="nav-link flex items-center gap-1">
-              Pages
+          <div class="flex items-center gap-6">
+            <a href="#" class="text-base font-medium flex items-center gap-2">
+              Cart
+              <span
+                class="w-5 h-5 bg-[#EDDED5] text-[14px] flex items-center justify-center rounded-full text-black border border-orange-100"
+                >0</span
+              >
+            </a>
+            <a
+              href="#"
+              class="hidden md:block border border-black px-5 py-3 rounded-full text-base font-medium hover:bg-black hover:text-white transition-all duration-300"
+            >
+              Get in Touch
+            </a>
+            <button class="lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -50,57 +82,26 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                <path d="m6 9 6 6 6-6" />
+                <line x1="4" x2="20" y1="12" y2="12" />
+                <line x1="4" x2="20" y1="6" y2="6" />
+                <line x1="4" x2="20" y1="18" y2="18" />
               </svg>
             </button>
           </div>
-        </div>
-
-        <div class="flex items-center gap-6">
-          <a href="#" class="text-sm font-medium flex items-center gap-2">
-            Cart
-            <span
-              class="w-5 h-5 bg-orange-50 text-[10px] flex items-center justify-center rounded-full text-orange-600 border border-orange-100"
-              >0</span
-            >
-          </a>
-          <a
-            href="#"
-            class="hidden md:block border border-black px-6 py-2.5 rounded-full text-sm font-medium hover:bg-black hover:text-white transition-all duration-300"
-          >
-            Get in Touch
-          </a>
-          <button class="lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <line x1="4" x2="20" y1="12" y2="12" />
-              <line x1="4" x2="20" y1="6" y2="6" />
-              <line x1="4" x2="20" y1="18" y2="18" />
-            </svg>
-          </button>
         </div>
       </nav>
     </header>
 
     <main class="pt-32">
       <!-- Hero Section -->
-      <section class="max-w-7xl mx-auto px-6 py-20">
-        <div class="max-w-4xl reveal-on-scroll">
+      <section class="max-w-7xl mx-auto px-6 py-28">
+        <div class="max-w-5xl reveal-on-scroll">
           <h1
             class="text-6xl md:text-8xl font-light tracking-tight leading-[1.1] mb-8 font-[sans-serif]"
           >
             Building Brands, One Success Story at a Time.
           </h1>
-          <p class="text-lg text-gray-600 mb-10 max-w-md leading-relaxed">
+          <p class="text-xl mb-10 max-w-md leading-relaxed">
             Create a Brand That Resonates: We Can Help You Define and
             Communicate Your Unique Message.
           </p>
@@ -142,11 +143,11 @@
       </section>
 
       <!-- Services Grid -->
-      <section id="services" class="max-w-7xl mx-auto px-6 py-24">
+      <section id="services" class="max-w-7xl mx-auto px-4 py-24">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div class="bg-oliv-gray p-10 rounded-sm card-hover reveal-on-scroll">
-            <h3 class="text-xl font-medium mb-6">Brand Strategy</h3>
-            <p class="text-gray-500 text-sm leading-relaxed mb-8">
+            <h3 class="text-2xl font-medium mb-6">Brand Strategy</h3>
+            <p class="text-gray-500 text-base leading-relaxed mb-8">
               We help businesses define their unique brand message and branding
               positioning.
             </p>
@@ -160,8 +161,8 @@
             class="bg-oliv-gray p-10 rounded-sm card-hover reveal-on-scroll"
             style="transition-delay: 100ms"
           >
-            <h3 class="text-xl font-medium mb-6">Visual Identity</h3>
-            <p class="text-gray-500 text-sm leading-relaxed mb-8">
+            <h3 class="text-2xl font-medium mb-6">Visual Identity</h3>
+            <p class="text-gray-500 text-base leading-relaxed mb-8">
               We create visual elements such as logos, packaging, and marketing
               materials for your brand.
             </p>
@@ -175,8 +176,8 @@
             class="bg-oliv-gray p-10 rounded-sm card-hover reveal-on-scroll"
             style="transition-delay: 200ms"
           >
-            <h3 class="text-xl font-medium mb-6">Digital Marketing</h3>
-            <p class="text-gray-500 text-sm leading-relaxed mb-8">
+            <h3 class="text-2xl font-medium mb-6">Digital Marketing</h3>
+            <p class="text-gray-500 text-base leading-relaxed mb-8">
               We help businesses to promote their brand online and create
               engaging digital experiences.
             </p>
@@ -190,8 +191,8 @@
             class="bg-oliv-gray p-10 rounded-sm card-hover reveal-on-scroll"
             style="transition-delay: 300ms"
           >
-            <h3 class="text-xl font-medium mb-6">Brand Management</h3>
-            <p class="text-gray-500 text-sm leading-relaxed mb-8">
+            <h3 class="text-2xl font-medium mb-6">Brand Management</h3>
+            <p class="text-gray-500 text-base leading-relaxed mb-8">
               We help businesses to implement their brand across all touchpoints
               and ensure consistency.
             </p>
