@@ -326,7 +326,7 @@ nav .btn-group .login:hover {
   height: 50px;
   border-radius: 50%;
   font-size: 24px;
-  cursor : pointer;
+  cursor: pointer;
 }
 
 /* footer styles */
@@ -369,7 +369,6 @@ footer .logo {
   align-items: center;
   justify-content: space-between;
   padding: 40px 50px 40px 50px;
-  
 }
 .footer-down-left {
   display: flex;
@@ -384,4 +383,18 @@ footer .logo {
 .footer-down ul li {
   font-size: 13px;
   color: #a6a6af;
+}
+
+#scrolling-text {
+  animation: scroll 20s linear infinite;
+  gap: 20px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
