@@ -7,7 +7,7 @@ module.exports = {
         'oliv-dark': '#111111',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['serif - 300', 'Inter', 'sans-serif'],
       },
       animation: {
         'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
