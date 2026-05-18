@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -14,7 +14,7 @@
   .btn-primary {
     @apply bg-oliv-dark text-white px-8 py-4 rounded-full font-medium transition-all duration-300 hover:bg-opacity-90 hover:scale-105 active:scale-95;
   }
-  
+
   .nav-link {
     @apply text-sm font-medium hover:text-gray-500 transition-colors duration-200;
   }
@@ -53,4 +53,17 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+#scrolling-text {
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
